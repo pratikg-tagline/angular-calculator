@@ -1,0 +1,43 @@
+<h1 class="text-danger">Calculator</h1>
+
+<div class="main">
+  <div>
+      <input type="text" id="screen" placeholder="0" (keypress)="check($event)" (keyup)="ans($event)"  onkeyup="validate()">
+    
+  </div>
+ 
+  
+      
+  
+  
+  <button type="button" class="place" value="2" (click)="display('1')">1</button>
+  <button type="button" class="place" value="2" (click)="display('2')" name="psw" >2</button>
+  <button type="button" class="place" value="3" (click)="display('3')" name="psw" >3</button>
+  <button  id="num" value="+" (click)="display('+')" name="psw" >+</button><br>
+
+  
+  <button type="button" class="place" value="4" (click)="display('4')" name="psw" >4</button>
+  <button type="button" class="place" value="5" (click)="display('5')" name="psw" >5</button>
+  <button type="button" class="place" value="6"(click)="display('6')" name="psw" >6</button>
+  <button id="num" value="-" (click)="display('-')" name="psw" >-</button><br>
+
+     
+
+  <button type="button" class="place" value="7"  (click)="display('7')" name="psw" >7</button>
+  <button type="button" class="place"  value="8" (click)="display('8')" name="psw" >8</button>
+  <button type="button" class="place" value="9" (click)="display('9')" name="psw" >9</button>
+  <button  id="num" value="*" (click)="display('*')" name="psw" >*</button><br>
+  
+  <button type="button" class="place"  (click)="display('0')" value="0"name="psw" >0</button>
+  <button type="button" class="place" (click)="display('00')" value="00"name="psw" >00</button>
+  <button type="button" class="place"  (click)="display('.')" value="." name="psw" >.</button>
+  <button id="num" value="/" (click)="display('/')" name="psw" >/</button><br>
+  
+  
+      <button type="button" colspan="2" (click)="backSpace('123')"  value="AC" id="num1" name="psw" >BackSpace</button>
+      <button type="button"  (click)="clearscreen()" value="00">Clear</button> 
+      <button type="button"  (click)="calculate()" value="=" id="eqval">=</button>
+    
+
+</div>
+<router-outlet></router-outlet>

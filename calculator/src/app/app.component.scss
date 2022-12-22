@@ -1,0 +1,54 @@
+button[type=button] {
+    width: 50px;
+    height: 50px;
+    background-color:blue ;
+    color:white ;
+    margin: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  #screen{
+    
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+
+  }
+  #num{
+    width: 50px;
+    height: 50px;
+    background-color:yellow ;
+    color:rgb(11, 11, 11) ;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  #num1{
+    color: white;
+    background-color: red;
+    width: 130px;
+    border-radius: 10px;
+
+  }
+
+  .main{
+    background-color: black;
+    width: 300px;
+    height: 440px;
+   
+    margin: auto;
+    border-radius: 20px;
+  }
+  #eqval{
+    width: 50px;
+    height: 50px;
+    background-color:green ;
+    color:rgb(15, 14, 14) ;
+    margin: 1px;
+    margin-left: 1spx;
+    border-radius: 10px;
+  }
